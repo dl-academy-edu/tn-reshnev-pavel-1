@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="UTF-8">
-   <title>Main page</title>
+   <title>Goods</title>
 </head>
 
 <body>
@@ -28,97 +28,126 @@
       </nav>
    </header>
    <main>
-      <section class="main-banner">
-         <p>01</p>
-         <img src="./img/Pictures/image.png" alt="image" width="635" height="461">
-         <h1>THE OOH NOO COLLECTION</h1>
-         <div class="text">Designed in Slovenia</div>
-         <button class="button">EXPLORE NOW</button>
-         <p>Free (continental) USA shipping on all orders of $100 USD or more!</p>
+      <section class="features">
+         <h1>Toy for kids</h1>
+         <a href="#">Home</a>
+         <a href="#">Catalog</a>
+         <a href="#">Toys</a>
+         <h2>Cost</h2>
+         <form action="#">
+            <p>
+               <input type="range" id="start" name="cost" min="0" max="500" value="0">
+            </p>
+            <p>0 500</p>
+         </form>
+         <h2>Color</h2>
+         <form action="#" name="color" method="get">
+            <ul>
+               <li>
+                  <label>
+                     <input name="black" checked type="checkbox" value="black">Black
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="blue" type="checkbox" value="blue">Blue
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="green" type="checkbox" value="green">Green
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="white" type="checkbox" value="white">White
+                  </label>
+               </li>
+            </ul>
+         </form>
+         <h2>Delivery</h2>
+         <form action="#" name="delivery" method="get">
+            <ul>
+               <li>
+                  <label>
+                     <input name="delivery" type="radio" value="free-shipping">Free shipping
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="delivery" checked type="radio" value="fast-shipping">Fast shipping
+                  </label>
+               </li>
+            </ul>
+         </form>
+         <h2>Amount</h2>
+         <form action="#" name="amount" method="get">
+            <ul>
+               <li>
+                  <label>
+                     <input name="amount" type="radio" value="amount">0-5
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="amount" type="radio" value="amount">10-20
+                  </label>
+               </li>
+               <li>
+                  <label>
+                     <input name="amount" type="radio" value="amount">20-50
+                  </label>
+               </li>
+            </ul>
+         </form>
+         <button class="button">Apply</button>
       </section>
       <section class="products">
-         <h2>Category Products</h2>
+         <h2 class="hidden">Products</h2>
          <ul>
             <li>
                <a href="#">
-                  <img src="./img/Pictures/products1.png" alt="products1" width="280" height="270">
-                  <h3>APPAREL KIDS</h3>
+                  <img src="./img/Pictures/things1.png" alt="things1" width="380" height="385">
+                  <p>SHARKY BEAN BAG CHAIR COVER</p>
+                  <p>$60.00 USD</p>
                </a>
             </li>
             <li>
                <a href="#">
-                  <img src="./img/Pictures/products2.png" alt="products2" width="280" height="270">
-                  <h3>HOLIDAY SHOP</h3>
+                  <img src="./img/Pictures/things2.png" alt="things2" width="380" height="385">
+                  <p>BRASS DECO FRAMES</p>
+                  <p>$66.00 USD</p>
                </a>
             </li>
             <li>
                <a href="#">
-                  <img src="./img/Pictures/products3.png" alt="products3" width="280" height="270">
-                  <h3>TOYS</h3>
+                  <img src="./img/Pictures/things3.png" alt="things3" width="380" height="385">
+                  <p>CIBO FULL APRON</p>
+                  <p>$60.00 USD</p>
                </a>
             </li>
             <li>
                <a href="#">
-                  <img src="./img/Pictures/products4.png" alt="products4" width="280" height="270">
-                  <h3>ACCESSORIES</h3>
+                  <img src="./img/Pictures/things4.png" alt="things4" width="380" height="385">
+                  <p>GATCHA GATCHA GUMBALL MACHINE</p>
+                  <p>$56.00 USD</p>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img src="./img/Pictures/things5.png" alt="things5" width="380" height="385">
+                  <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
+                  <p>$29.00 USD</p>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img src="./img/Pictures/things6.png" alt="things6" width="380" height="385">
+                  <p>TANGLE SPINNING TEA LIGHT</p>
+                  <p>$56.00 USD</p>
                </a>
             </li>
          </ul>
-         <div class="button-icon">
-            <button class="icon-01">
-               <img src="./img/icon/left.png" alt="left" width="13" height="26">
-            </button>
-            <button class="icon-02">
-               <img src="./img/icon/right.png" alt="right" width="13" height="26">
-            </button>
-         </div>
-         <div class="text">Modern finds for the modern home. Curated goods by unique designers around the world from
-            fashion to furniture for kids and adults.</div>
-      </section>
-      <section class="about">
-         <img src="./img/Pictures/shoto.jpg" alt="shoto" width="480" height="559">
-         <h2>Delivery</h2>
-         <ul>
-            <li>Delivery</li>
-            <li>Guarantee</li>
-            <li>Credit</li>
-         </ul>
-         <div class="lead-01">Some days i feel like i've been working on dlk my entire life and there are other days
-            that i am completely shocked that four years have flown by. It's simply magical.</div>
-         <div class="lead-02">What started as an outlet to deal with the traumatic loss of my husband, dlk has now
-            become a truly happy place for me and i have you and all of the beautiful designers that we work with
-            to thank!</div>
-         <button class="button-text">LEARN MORE</button>
-      </section>
-      <article class="brands">
-         <h2 class="hidden">Brands</h2>
-         <ul>
-            <li>
-               <img src="./img/Logo/brand1.png" alt="brand1" width="193" height="60">
-            </li>
-            <li>
-               <img src="./img/Logo/brand2.png" alt="brand2" width="193" height="60">
-            </li>
-            <li>
-               <img src="./img/Logo/brand3.png" alt="brand3" width="193" height="60">
-            </li>
-            <li>
-               <img src="./img/Logo/brand4.png" alt="brand4" width="193" height="60">
-            </li>
-         </ul>
-      </article>
-      <section class="map">
-         <h2>Design Life Kids</h2>
-         <div class="subtitle">About Us</div>
-         <div class="map-text-01">Some days i feel like i've been working on dlk my entire life and there are other days
-            that i am completely shocked that four years have flown by. It's simply magical.</div>
-         <button class="button-map"></button>
-         <h2>Contacts</h2>
-         <div class="map-text-02">Some days i feel like i've been working on dlk my entire life and there are other days
-            that i am completely shocked that four years have flown by. It's simply magical.</div>
-         <a href="https://www.google.ru/maps">
-            <img src="./img/Pictures/map.png" alt="map" width="483" height="196">
-         </a>
       </section>
    </main>
    <footer class="footer">
