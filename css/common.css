@@ -1,0 +1,163 @@
+* {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+   text-transform: uppercase;
+   color: #1E0606;
+}
+
+body {
+   font-family: 'Crimson Text', 'Montserrat', 'Open Sans', sans-serif;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E0606;
+}
+
+a {
+   text-decoration: none;
+}
+
+.button {
+   background: black;
+   color: #FFFFFF;
+   padding: 9px 22px 9px 22px;
+   font-family: Open Sans;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 22px;
+   text-align: center;
+   border: none;
+   text-transform: uppercase;
+}
+
+.button-link {
+   background: black;
+   color: #FFFFFF;
+   padding: 9px 22px 9px 22px;
+   font-family: Open Sans;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 22px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.undotted {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.footer-undotted {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.list-undotted {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: Open Sans;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   color: #1E0606;
+   padding-top: 50px;
+}
+
+.header-logo:hover {
+   opacity: 0.4;
+}
+
+.header-logo:active {
+   opacity: 0.1;
+}
+
+.header-list {
+   display: flex;
+}
+
+.header-item a {
+   margin-right: 20px;
+   font-family: Open Sans;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   text-align: left;
+   color: #1E0606;
+   text-transform: uppercase;
+}
+
+.header-item:hover {
+   opacity: 0.4;
+}
+
+.header-item:active {
+   opacity: 0.1;
+}
+
+
+.header-nav {
+   margin: 0 auto 0 60px;
+}
+
+.header-contact a {
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: uppercase;
+   color: #1E0606;
+   margin-left: 23px;
+}
+
+.header-contact:hover {
+   opacity: 0.4;
+}
+
+.header-contact:active {
+   opacity: 0.1;
+}
+
+.header-icon:hover {
+   opacity: 0.4;
+}
+
+.header-icon:active {
+   opacity: 0.1;
+}
+
+.footer {
+   background: #434343;
+}
+
+.footer-main {
+   display: flex;
+   align-items: center;
+   margin: 100px auto;
+}
+
+.footer-undotted {
+   font-family: Open Sans;
+   font-size: 16px;
+   font-weight: 400;
+}
