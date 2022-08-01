@@ -1,9 +1,45 @@
 .main-banner {
    background: #EEE4DB;
+   display: flex;
+   margin: 0px auto;
+   max-height: 371px;
+}
+
+.number {
+   font-family: 'Montserrat';
+   font-weight: 200;
+   font-size: 60px;
+   line-height: 73px;
+   color: #E3D8D0;
+   margin: 0;
+   padding: 17px 10px 0px 28px;
+
+}
+
+.banner-undotted {
+   height: 3px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0px 0px 0px 31px;
+}
+
+.banner-undotted li {
+   height: 3px;
+   background: #D6CAC2;
+   width: 31px;
+   margin: 11px 0px;
+   cursor: pointer;
+}
+
+.banner-undotted li:hover {
+   background: rgba(30, 6, 6, 0.6);
+}
+
+.banner-undotted li:first-child {
+   background: rgba(30, 6, 6, 0.6);
 }
 
 .banner-text {
-   font-family: Open Sans;
    font-weight: 700;
    line-height: 16px;
    text-align: center;
@@ -11,93 +47,209 @@
    color: #FFFFFF;
    padding: 11px 0px 11px 0px;
    text-transform: uppercase;
+   font-size: 12px;
+   margin: 0px 0px 45px 0px;
 }
 
 .banner-title {
-   font-family: Montserrat;
+   font-family: 'Montserrat';
    font-size: 40px;
    font-weight: 700;
    line-height: 44px;
    text-align: left;
+   margin: 0px;
 }
 
 .banner-img {
-   display: flex;
+   order: 1;
+   position: relative;
+   top: -90px;
+   right: 100px;
 }
 
-.products {}
+.banner-list {
+   padding: 89px 0px 0px 44px;
+}
+
+.title-text {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+   padding: 20px 0px;
+}
+
+/* PRODUCTS*/
+
+.products {
+   font-family: 'Montserrat';
+}
 
 .products-title {
-   font-family: 'Montserrat';
    font-weight: 700;
    font-size: 38px;
    line-height: 46px;
+   padding: 45px 0px 0px 0px;
+   margin: 0;
 }
 
 
 .list-undotted {
    display: flex;
-   padding: 30px 0px 33px 0px;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 32px;
+   position: relative;
+   margin: 30px 0px 33px 0px;
 }
 
-.list-undotted h3 {
+.list-undotted span {
    color: #FFFFFF;
-   justify-content: center;
+   position: absolute;
 }
 
-.list-undotted h3:hover {
+.list-undotted span:hover {
    text-decoration: underline
 }
 
+.title01 {
+   bottom: 40%;
+   left: 24%;
+   max-width: 50%;
+}
+
+.title02 {
+   bottom: 40%;
+   left: 25%;
+   max-width: 50%;
+}
+
+.title03 {
+   bottom: 46%;
+   left: 37%;
+}
+
+.title04 {
+   bottom: 45%;
+   left: 15%;
+}
+
 .products-01 {
-   background: #DBE4DB;
-   margin: 0px 10px;
-   font-family: Montserrat;
-   font-size: 26px;
-   font-weight: 700;
-   line-height: 32px;
-   text-align: center;
+   margin: 0px 10px 0px 0px;
+   position: relative;
 }
 
 .products-02 {
-   background: #EADDD3;
    margin: 0px 10px;
-   font-family: Montserrat;
-   font-size: 26px;
-   font-weight: 700;
-   line-height: 32px;
-   text-align: center;
-   z-index: 2;
+   position: relative;
 }
 
 .products-03 {
-   background: #F8F2DA;
    margin: 0px 10px;
-   font-family: Montserrat;
-   font-size: 26px;
-   font-weight: 700;
-   line-height: 32px;
-   text-align: center;
+   position: relative;
 }
 
 
 .products-04 {
-   background: #D5D4E1;
    margin: 0px 10px;
-   font-family: Montserrat;
-   font-size: 26px;
-   font-weight: 700;
-   line-height: 32px;
-   text-align: center;
+   position: relative;
 }
 
-.about {
+.button-icon {
+   display: flex;
+   margin: 0px 0px 50px 0px;
+   align-items: flex-start;
+}
+
+.icon-01 {
+   background: #E2F1F8;
+   border: none;
+   cursor: pointer;
+   width: 37px;
+   height: 37px;
+}
+
+.icon-02 {
+   background: #E2F1F8;
+   border: none;
+   cursor: pointer;
+   margin: 0px 20px 0px 6px;
+   width: 37px;
+   height: 37px;
+}
+
+.text {
    font-family: 'Open Sans';
-   font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 22px;
-   margin: 45px 45px;
+   color: #1E0606;
+   max-width: 50%;
+}
+
+/* ABOUT and LOGO */
+
+.about {
+   display: flex;
+   align-items: flex-start;
+}
+
+.about-list {
+   padding: 0px 0px 0px 121px;
+}
+
+.about-title {
+   font-family: 'Montserrat';
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   text-transform: uppercase;
+   margin: 30px 0px 6px 0px;
+}
+
+.list-about {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 34px;
+   color: #1E0606;
+}
+
+.list-about li:first-child {
+   background: #E2F1F8;
+   padding: 11px 0px 11px 60px;
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 34px;
+   color: #1E0606;
+   max-width: 326px;
+   margin: 0px 0px 11px 0px;
+   position: relative;
+   right: 60px
+}
+
+.list-about li:last-child {
+   margin: 22px 0px 30px 0px;
+}
+
+.lead-01 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   margin: 0px 0px 15px 0px;
+   max-width: 83%;
+}
+
+.lead-02 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   margin: 0px 0px 26px 0px;
+   max-width: 85%;
 }
 
 .hidden {
@@ -106,13 +258,69 @@
    margin: 0px;
 }
 
-.undotted {
+.brands-logo {
    display: flex;
    justify-content: space-between;
-   margin: 45px 45px;
-   padding: 0px 10px;
+   margin: 90px 127px 90px 0px;
 }
+
+/* MAP */
 
 .map {
    display: flex;
 }
+
+.map-list {
+   max-height: 228px;
+   max-width: 543px;
+   background: #E1F0F7;
+   padding: 0px 0px 0px 30px;
+   position: relative;
+}
+
+.map-title {
+   font-family: 'Montserrat';
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   margin: 0px auto;
+   position: absolute;
+   top: -26px;
+}
+
+.subtitle {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 34px;
+   padding: 31px 0px 10px 0px;
+}
+
+.map-text-01 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+.map-text-02 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   padding: 41px 0px 20px 0px;
+}
+
+.map-button {
+   margin: 20px 0px 27px 0px;
+}
+
+.map-contacts {
+   width: 543px;
+   height: 209px;
+   background: #E1F0F7;
+   margin: 0px 0px 0px 57px;
+   padding: 0px 0px 0px 30px;
+   position: relative;
+}
+
+/* FOOTER */
