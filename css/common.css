@@ -2,11 +2,6 @@
    box-sizing: border-box;
 }
 
-.container {
-   max-width: 1180px;
-   width: 100%;
-}
-
 h1,
 h2,
 h3 {
@@ -15,39 +10,37 @@ h3 {
 }
 
 body {
+   font-family: 'Crimson Text', 'Montserrat', 'Open Sans', sans-serif;
    font-size: 16px;
    line-height: 22px;
    color: #1E0606;
-   margin: 0px auto;
-   font-family: 'Open Sans', 'Crimson Text', 'Montserrat', sans-serif;
 }
 
 a {
    text-decoration: none;
 }
 
-.img {
-   width: 100%;
-   display: block;
-}
-
 .button {
    background: black;
    color: #FFFFFF;
    padding: 9px 22px 9px 22px;
+   font-family: Open Sans;
+   font-size: 16px;
    font-weight: 700;
+   line-height: 22px;
    text-align: center;
    border: none;
    text-transform: uppercase;
-   cursor: pointer;
-   height: 40px;
 }
 
 .button-link {
    background: black;
    color: #FFFFFF;
    padding: 9px 22px 9px 22px;
+   font-family: Open Sans;
+   font-size: 16px;
    font-weight: 700;
+   line-height: 22px;
    text-align: center;
    text-transform: uppercase;
 }
@@ -58,12 +51,21 @@ a {
    margin: 0;
 }
 
+.footer-undotted {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
 .list-undotted {
    list-style-type: none;
    padding: 0;
    margin: 0;
-   text-align: center;
-   text-transform: uppercase;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
 }
 
 /* HEADER */
@@ -72,12 +74,12 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   font-family: Open Sans;
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
    color: #1E0606;
-   margin: 50px 0px;
-   padding: 0px 0px 79px 0px;
+   padding-top: 50px;
 }
 
 .header-logo:hover {
@@ -94,6 +96,7 @@ a {
 
 .header-item a {
    margin-right: 20px;
+   font-family: Open Sans;
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
@@ -116,6 +119,7 @@ a {
 }
 
 .header-contact a {
+   font-family: 'Open Sans';
    font-weight: 700;
    font-size: 14px;
    line-height: 19px;
@@ -142,23 +146,18 @@ a {
    opacity: 0.1;
 }
 
-/* FOOTER */
-
 .footer {
-   margin: 155px 0px 0px 0px;
    background: #434343;
 }
 
 .footer-main {
    display: flex;
+   align-items: center;
+   margin: 100px auto;
 }
 
 .footer-undotted {
+   font-family: Open Sans;
+   font-size: 16px;
    font-weight: 400;
-}
-
-.footer-undotted {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
 }
