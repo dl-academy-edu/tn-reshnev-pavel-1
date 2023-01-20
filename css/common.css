@@ -32,7 +32,7 @@ a {
 }
 
 .button {
-   background: black;
+   background:#000000;
    color: #FFFFFF;
    padding: 9px 22px 9px 22px;
    font-weight: 700;
@@ -40,7 +40,6 @@ a {
    border: none;
    text-transform: uppercase;
    cursor: pointer;
-   height: 40px;
 }
 
 .button-link {
@@ -144,6 +143,41 @@ a {
 
 /* FOOTER */
 
+.footer-title01 {
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #AAAAAA;
+padding: 0px 0px 23px 0px;
+}
+
+.footer-border01 {
+   list-style-type: none;
+}
+
+.footer-border01 li {
+   height: 1px;
+   background: #666666;
+   width: 380px;
+}
+
+.footer-undotted {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+.footer-undotted li {
+   padding: 0px 0px 15px 0px;
+}
+
+.footer-undotted a {
+   color: #FFFFFF;
+}
+
 .footer {
    margin: 155px 0px 0px 0px;
    background: #434343;
@@ -153,12 +187,14 @@ a {
    display: flex;
 }
 
-.footer-undotted {
-   font-weight: 400;
+.footer-list01 {
+   
 }
 
-.footer-undotted {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
+.footer-list02 {
+
+}
+
+.footer-list03 {
+
 }
